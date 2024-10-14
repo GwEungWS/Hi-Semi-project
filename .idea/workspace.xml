@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f75677c4-462b-4626-adfe-debcf87c5181" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/moyomoyoe">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/moyomoyoe">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="moyomoyoe" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yeJin4069&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/moyomoyoe/semi-project.git",
+    "accountId": "dda9385b-0186-4e6d-acbc-60b031451fd6"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2mllCa98igrWqVLaLuHKSSJUu01" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build moyomoyoe.executor": "Run",
+    "Gradle.moyomoyoe [build].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MoyomoyoeApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/myProject/semi-project",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="moyomoyoe.member.user.model.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myWorkSpace\semiProject-1003\moyomoyoe\src\main\resources\static\image" />
+      <recent name="C:\myWorkSpace\semiProject-1001\moyomoyoe\src\main\resources" />
+      <recent name="C:\myWorkSpace\semiProject-1001\moyomoyoe\src\main\resources\static" />
+      <recent name="C:\myWorkSpace\semiProject-1001\moyomoyoe\src\main\resources\mappers" />
+      <recent name="C:\myWorkSpace\semiProject-1001\moyomoyoe\src\main\java\moyomoyoe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\myWs\semiProject\Project\semi-project\semi-project\moyomoyoe\src\main\resources\static\image" />
+      <recent name="C:\myWs\semiProject\Project\semi-project\semi-project\moyomoyoe\src\main\resources\static\style\board" />
+      <recent name="C:\myWorkSpace\semiProject-1001\moyomoyoe\src\main\resources\mappers" />
+      <recent name="C:\myWs\semiProject\Project\semi-project\semi-project\moyomoyoe\src\main\java\moyomoyoe\member\user\model\dto" />
+      <recent name="C:\myWs\semiProject\Project\semi-project\semi-project\moyomoyoe\src\main\resources\static\font" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="moyomoyoe" />
+      <recent name="moyomoyoe.member.business" />
+      <recent name="moyomoyoe.image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MoyomoyoeApplication">
+    <configuration name="moyomoyoe [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/moyomoyoe" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoyomoyoeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="moyomoyoe.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="moyomoyoe.MoyomoyoeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.moyomoyoe [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f75677c4-462b-4626-adfe-debcf87c5181" name="Changes" comment="" />
+      <created>1727658919102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727658919102</updated>
+      <workItem from="1727658920826" duration="10830000" />
+      <workItem from="1727674910489" duration="18945000" />
+      <workItem from="1727695149958" duration="2569000" />
+      <workItem from="1727742491806" duration="5573000" />
+      <workItem from="1727769792711" duration="2685000" />
+      <workItem from="1727772497759" duration="932000" />
+      <workItem from="1727796767200" duration="1548000" />
+      <workItem from="1727804143010" duration="3590000" />
+      <workItem from="1727811152370" duration="3000" />
+      <workItem from="1727811280774" duration="38000" />
+      <workItem from="1727811339333" duration="18000" />
+      <workItem from="1727829601547" duration="9301000" />
+      <workItem from="1727840868752" duration="14659000" />
+      <workItem from="1727860396408" duration="3580000" />
+      <workItem from="1727865004271" duration="1238000" />
+      <workItem from="1727886830922" duration="1090000" />
+      <workItem from="1727941854081" duration="10265000" />
+      <workItem from="1727952744731" duration="8000" />
+      <workItem from="1727956548648" duration="973000" />
+      <workItem from="1727972221853" duration="13881000" />
+      <workItem from="1727987640925" duration="8128000" />
+      <workItem from="1728002004645" duration="44000" />
+      <workItem from="1728871000607" duration="153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="board" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

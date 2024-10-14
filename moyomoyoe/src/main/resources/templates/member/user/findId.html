@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style/findId.css" />
+    <link rel="stylesheet" href="/static/style/main.css" />
+    <link rel="stylesheet" href="/static/style/member.css" />
+    <title>FINDID</title>
+    <style>
+        #resultModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* 다른 요소 위에 나타나도록 설정 */
+        }
+
+        #resultModal > div {
+            position: relative;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #modalClose {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="common/header.html"></div>
+<div class="outer-container">
+    <div class="left-space"></div>
+
+    <div class="centered-container">
+        <div class="page-title">
+            <h2>&nbsp;&nbsp;아이디 찾기</h2>
+            <hr>
+        </div>
+
+        <div class="container">
+            <form th:action="@{/member/user/findId}" method="POST">
+                <div class="form-group">
+                    <label>이름</label><input type="text" id="username" name="username"><br>
+                </div>
+                <div class="form-group">
+                    <label>이메일</label><input type="text" id="email" name="email"><br>
+                </div>
+                <br>
+                <div class="button">
+                    <button>아이디 찾기</button>
+                </div>
+            </form>
+        </div>
+
+<div id="resultModal">
+    <div>
+        <span id="modalClose" style="cursor: pointer">ｘ</span>
+        <p id="message" th:text="${ message }"></p>
+        <button id="button">확인</button>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+        const message = '[[${message}]]';
+        const redirect = '[[${redirect}]]';
+        console.log("서버에서 온 메세지" + message);
+
+        if(message) {
+            if(redirect === 'true') {
+                document.getElementById('message').innerText = message;
+                console.log(message);
+                document.getElementById('resultModal').style.display = 'flex';
+            } else {
+                alert(message); // 아이디를 못 찾았을 땐 alert 창이 나타나기
+                location.href='/member/user/findId';
+            }
+        }
+
+        document.getElementById('modalClose').onclick = function() {
+            document.getElementById('resultModal').style.display = 'none';
+            if(redirect === 'true') {
+                location.href='/member/auth/login';
+            } else {
+                location.href='/member/user/findId';    // 아이디 못 찾았을 때도 모달창을 띄웠다면 닫았을 때 아이디 찾기 페이지에 남아있기
+            }
+        };
+        document.getElementById('button').onclick = function() {
+            document.getElementById('resultModal').style.display = 'none';
+            if(redirect === 'true') {
+                location.href='/member/auth/login';
+            } else {
+                location.href='/member/user/findId';
+            }
+        };
+
+    };
+
+
+</script>
+    </div>
+    <div th:replace="common/schdulelist.html"></div>
+</div>
+</body>
+</html>

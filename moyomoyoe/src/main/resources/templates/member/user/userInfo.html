@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style/userInfo.css" />
+    <link rel="stylesheet" href="/static/style/main.css" />
+    <link rel="stylesheet" href="/static/style/member.css" />
+    <title>USERINFO</title>
+    <style>
+        #deleteModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* 다른 요소 위에 나타나도록 설정 */
+        }
+
+        #deleteModal > div {
+            position: relative;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #modalClose {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="common/header.html"></div>
+<div class="outer-container">
+    <div class="left-space"></div>
+
+    <div class="centered-container">
+<div class="page-title">
+    <h2>&nbsp;&nbsp;회원 정보 조회</h2>
+    <hr>
+</div>
+
+<div class="container">
+    <div id="profileImg">
+        <img th:src="${ user.image }" alt="프로필 파일" class="profile-image" width="200" height="200">
+    </div>
+    <br>
+    <div id="userInfo">
+        <div class="info-group">
+            <label><b>이름</b></label><span th:text="${ user.name }"></span><br>
+        </div>
+        <div class="info-group">
+            <label><b>아이디</b></label><span th:text="${ user.account }"></span><br>
+        </div>
+        <div class="info-group">
+            <label><b>닉네임</b></label><span th:text="${ user.nickname }"></span><br>
+        </div>
+        <div class="info-group">
+            <label><b>지역</b></label><span th:text="${ user.region }"></span><br>
+        </div>
+        <div class="info-group">
+            <label><b>연락처</b></label><span th:text="${ user.phone }"></span><br>
+        </div>
+        <div class="info-group">
+            <label><b>이메일</b></label><span th:text="${ user.email }"></span><br>
+        </div>
+    </div>
+    <br>
+    <div class="buttons">
+        <div class="editInfo">
+            <form action="/member/user/editInfo">
+                <button>회원 정보 수정</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="deleteUser">
+        <form action="/member/user/deleteUser" method="POST" id="deleteForm">
+            <button type="button" class="deleteUserBtn" id="deleteUserBtn">회원 탈퇴</button>
+        </form>
+    </div>
+    <div id="deleteModal">
+        <div>
+            <span id="modalClose" style="cursor: pointer; font-size: 20px">×</span>
+            <p id="notice">정말로 회원 탈퇴를 진행 하시겠습니까?</p>
+            <button id="button">확인</button>
+        </div>
+    </div>
+</div>
+
+    <script>
+
+        document.getElementById('deleteUserBtn').onclick = function() {
+            document.getElementById('deleteModal').style.display = 'flex';
+        };
+
+        document.getElementById('button').onclick = function() {
+            document.getElementById('deleteForm').submit();
+            alert("회원 탈퇴 진행이 완료 되었습니다.");
+        };
+
+        document.getElementById('modalClose').onclick = function() {
+            document.getElementById('deleteModal').style.display = 'none';
+        };
+
+    </script>
+
+    </div>
+        <div th:replace="common/schdulelist.html"></div>
+    </div>
+</body>
+</html>
